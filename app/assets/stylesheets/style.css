@@ -141,6 +141,7 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+  background-color: #000000;
   width: 100%;
   z-index: 99;
 }
