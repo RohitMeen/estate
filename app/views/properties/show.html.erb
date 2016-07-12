@@ -1,0 +1,52 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @property.name %>
+</p>
+
+<p>
+  <strong>category:</strong>
+  <%= @property.category %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @property.price %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @property.address %>
+</p>
+
+<p>
+  <strong>Address1:</strong>
+  <%= @property.address1 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @property.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @property.state %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @property.description %>
+</p>
+
+ <p>
+  <strong>image:</strong>
+<%= image_tag @property.image_url(:thumb) %>
+ </p>
+<button type="button" class="btn btn-success">
+       <%= link_to 'Edit', edit_property_path(@property) %> 
+        </button>
+<button type="button" class="btn btn-success">
+<%= link_to 'Back', properties_path %>
+ </button>

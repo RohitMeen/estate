@@ -141,13 +141,13 @@ img {
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #000000;
+  background-color: #87ceeb;
   width: 100%;
   z-index: 99;
 }
 #aa-header .aa-header-area {
   display: inline;
-  padding: 5px 0;
+  padding: 10px 0;
   float: left;
   width: 100%;
 }
@@ -178,9 +178,11 @@ img {
   font-size: 15px;
 }
 #aa-header .aa-header-area .aa-header-left .aa-email span {
+  color: #ffffff;
   margin-right: 5px;
 }
 #aa-header .aa-header-area .aa-header-right {
+  color: #ffffff;
   display: inline;
   float: left;
   width: 100%;
@@ -2679,6 +2681,7 @@ img {
 ====================*/
 
 @media (max-width: 1199px) {
+  background color: #000000
   #aa-agents .aa-agents-area .aa-agents-content .aa-agents-slider li .aa-single-agents .aa-agetns-info .aa-agent-social a {
     margin: 10px 2px;
   }
