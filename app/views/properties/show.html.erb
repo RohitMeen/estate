@@ -44,9 +44,5 @@
   <strong>Image:</strong>
 <%= image_tag @property.image_url %>
  </p>
-<button type="button" class="btn btn-success">
-       <%= link_to 'Edit', edit_property_path(@property) %> 
-        </button>
-<button type="button" class="btn btn-success">
-<%= link_to 'Back', properties_path %>
- </button>
+<%= link_to 'Edit', edit_property_path(@property),,class: "btn btn-success" %> 
+<%= link_to 'Back', properties_path,class: "btn btn-success" %>

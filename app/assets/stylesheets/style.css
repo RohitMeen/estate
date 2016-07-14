@@ -725,6 +725,7 @@ img {
 ====================*/
 
 #aa-latest-property {
+
   background-color: #f8f8f8;
   display: inline;
   float: left;
@@ -1328,7 +1329,7 @@ img {
 ====================*/
 
 #aa-property-header {
-  background-image: url("../img/property-header-bg.jpg");
+  background-image: url("about-us.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -2477,7 +2478,7 @@ img {
 ====================*/
 
 #aa-signin {
-  background-image: url("../img/signin-bg.jpg");
+  background-image: url("about-us.jpg");
   background-position: center center;
   background-size: cover;
   bottom: 0;
@@ -2490,6 +2491,7 @@ img {
   width: 100%;
 }
 #aa-signin:before {
+
   background-color: rgba(0, 0, 0, 0.8);
   content: '';
   position: fixed;
@@ -2544,6 +2546,7 @@ img {
   text-align: left;
 }
 #aa-signin .aa-signin-area .aa-signin-form .aa-single-field label .required {
+
   color: #f60000;
 }
 #aa-signin .aa-signin-area .aa-signin-form .aa-single-field input[type="text"],
@@ -3304,6 +3307,7 @@ img {
   }
 
   #aa-property-header {
+    background-image: url("about-us.jpg");s
     min-height: 230px;
   }
 

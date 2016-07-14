@@ -10,8 +10,10 @@
               </div>
               <%= form_for(resource, as: resource_name, url: session_path(resource_name), class: "contactform") do |f| %>
               <%= devise_error_messages! %>                                              
-                <div class="aa-single-field">              
-                 <%= f.label :email %><br />
+                
+                 <form role="form">
+                 <div class="aa-single-field">              
+                  <label for="email">Email address:</label>
                  <%= f.email_field :email, autofocus: true %>
                 </div>
                 <div class="aa-single-field">
@@ -28,6 +30,8 @@
                   <%= f.submit "Log in" %>  
                   <p>Don't Have A Account Yet? <a href="register.html">CREATE NOW!</a></p>
                 </div>
+                </form>
+    
                 <% end %>
             </div>
           </div>

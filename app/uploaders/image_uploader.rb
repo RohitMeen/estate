@@ -3,7 +3,7 @@
 class ImageUploader < CarrierWave::Uploader::Base
 
   # Include RMagick or MiniMagick support:
-  # include CarrierWave::RMagick
+   include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
@@ -18,8 +18,9 @@ class ImageUploader < CarrierWave::Uploader::Base
   process resize_to_fit: [300, 300]
 
   version :thumb do
-    process resize_to_fill: [100,100]
+    process resize_to_fit: [200,300]
   end
+  
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url
   #   # For Rails 3.1+ asset pipeline compatibility:
