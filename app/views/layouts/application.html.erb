@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>App7</title>
+  <title>Estate King</title>
+  <%= stylesheet_link_tag  'application', media: 'all','data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
       <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
@@ -20,14 +22,11 @@
 
     <!-- Main style sheet -->
     <link href="css/style.css" rel="stylesheet">    
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
   <%= csrf_meta_tags %>
 </head>
   <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
-
-
 <body class="aa-price-range">
 
 <%= yield %>

@@ -31,8 +31,10 @@
                     <%= f.password_field :password_confirmation, autocomplete: "off" %>
                 </div>
                 <div class="aa-single-submit">
-                  <%= f.submit "Sign up" %>                   
+                  <%= f.submit "Sign up" %>  
+                  <p> already register? <%= link_to"login",new_user_session_path%>                 
                 </div>
+
                 <% end %>
             </div>
           </div>
